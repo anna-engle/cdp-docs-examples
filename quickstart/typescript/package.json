@@ -2,10 +2,13 @@
   "name": "cdp-wallet-quickstart",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/quickstart.js"
-  },
+"scripts": {
+  "build": "tsc",
+  "start": "node dist/main.js"
+},
+"bin": {
+  "cdp-wallet": "dist/main.js"
+},
   "dependencies": {
     "@coinbase/cdp-sdk": "latest",
     "dotenv": "^16.4.5",
