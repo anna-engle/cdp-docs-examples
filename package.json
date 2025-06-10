@@ -9,10 +9,11 @@
     "start": "tsx main.ts"
   },
   "dependencies": {
-    "@coinbase/cdp-sdk": "^1.13.0",
+    "@coinbase/cdp-sdk": "^1.8.0",
     "viem": "^2.31.0"
   },
   "devDependencies": {
-    "tsx": "^4.19.4"
+    "tsx": "^4.19.4",
+    "typescript": "^5.4.0"
   }
 }
