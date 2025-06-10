@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "cdp-quickstart": "main.ts"
+    "cdp-quickstart": "dist/main.js"
   },
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js"
   },
+  "main": "dist/main.js",
   "dependencies": {
     "@coinbase/cdp-sdk": "^1.8.0",
     "viem": "^2.31.0"
@@ -17,6 +18,5 @@
     "@types/node": "^22.15.30",
     "tsx": "^4.19.4",
     "typescript": "^5.4.0"
-  },
-  "main": "dist/main.js"
+  }
 }
